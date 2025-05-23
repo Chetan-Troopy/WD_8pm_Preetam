@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag In HTML</title>
+</head>
+<body>
+    <h1>Form Tag In HTML</h1>
+    <hr>
+    <!-- A Field Created i.e. a Border Created  -->
+     <!-- legend -> Caption of Form Tag -->
+     <!-- form -> To make Form we use Form Tag -->
+      <!-- action => Path backend or where we want to send data or redirect after form submission -->
+       <!-- method => Get and Post  -->
+        <!-- get => less secure, data shown in UrL, Easily bookmarked -->
+         <!-- post -> Secure , No data shown in url, not bookmarked  -->
+
+
+         <!-- Most Important  -->
+    <!-- enctype => application/x-www-form-urlencoded, text/plain, multipart/form-data -->
+     <!-- application/x-www-form-urlencoded = By Default -->
+     <!-- text/plain  => Debugger use for debugging process  -->
+     <!-- multipart/form-data = when we send files , it will only used when method is POST -->
+
+
+     <!-- Question * = Tell me the attribute of form tag ? -->
+      <!-- Answer * = action, method, enctype -->
+
+
+
+
+
+      <!-- for => kis k liye aap data le rhe ho  -->
+       <!-- type => konsi type ka data chahiye , text, number, url, email, password  -->
+        <!-- name => data will be saved in this attribute -->
+
+        <!-- ? => String  -->
+        <!-- & => Multiple data  -->
+
+    <fieldset>
+        <legend>My Form</legend>
+        <!-- <form action="" method="get" > -->
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="uname">User Name</label>
+            <input type="text" name="uname" >
+            <br><br>
+            <label for="upass">User Password</label>
+            <input type="password" name="upass" >
+            <br><br>
+            <label for="uemail">User Email</label>
+            <input type="email" name="uemail" >
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </fieldset>
+    <hr>
+    <h2>Task of The Day</h2>
+    <img src="../../Images/form.png" alt="">
+</body>
+</html>
