@@ -1,6 +1,11 @@
 # Table Tag in HTML
 
 
+# Image Map
+
+
+# Semantic Tag -> jis tag k naam s uske bare m pta chale , jaise ki nav -> matlab navbar,  
+
 
 
 
